@@ -56,7 +56,6 @@ don = DoubleVar()
 wis = DoubleVar()
 chanceofrain = StringVar()
 
-TempImg = PhotoImage(file = )
 
 Label(root,text="Temperature",font=("Courier", 12)).grid(row=2,column=0,sticky=W,pady=10,padx=3)
 Entry(root ,textvariable = tem ,width=15).grid(row=2,column=1,sticky=W,padx=3)
