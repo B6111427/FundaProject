@@ -57,16 +57,16 @@ wis = DoubleVar()
 chanceofrain = StringVar()
 
 
-Label(root,text="Temperature",font=("Courier", 12)).grid(row=2,column=0,sticky=W,pady=10,padx=3)
+Label(root,text="Temperature (°C)",font=("Courier", 12)).grid(row=2,column=0,sticky=W,pady=10,padx=3)
 Entry(root ,textvariable = tem ,width=15).grid(row=2,column=1,sticky=W,padx=3)
 
-Label(root,text="Humidity",font=("Courier", 12)).grid(row=3,column=0,sticky=W,pady=10,padx=3)
+Label(root,text="Humidity (%)",font=("Courier", 12)).grid(row=3,column=0,sticky=W,pady=10,padx=3)
 Entry(root ,textvariable = hum ,width=15).grid(row=3,column=1,sticky=W,padx=3)
 
 Label(root,text="Day(1) or Night(0)",font=("Courier", 12)).grid(row=4,column=0,sticky=W,pady=10,padx=3)
 Entry(root ,textvariable = don ,width=15).grid(row=4,column=1,sticky=W,padx=3)
 
-Label(root,text="Wind speed",font=("Courier", 12)).grid(row=5,column=0,sticky=W,pady=10,padx=3)
+Label(root,text="Wind speed (km/h)",font=("Courier", 12)).grid(row=5,column=0,sticky=W,pady=10,padx=3)
 Entry(root ,textvariable = wis ,width=15).grid(row=5,column=1,sticky=W,padx=3)
 
 Button(root, text="Predict!",fg="white",bg="DeepSkyBlue2",bd=5,font=("consolas", 14),command = Predict ).grid(row=6,columnspan=2,pady=7)
